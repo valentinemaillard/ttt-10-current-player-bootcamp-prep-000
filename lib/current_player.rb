@@ -2,6 +2,7 @@ board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
 
 def turn_count(board)
   counter = 0 
+  counter == 9
   board.each do |turn|
     puts "This is turn number #{counter}"
     counter += 1
