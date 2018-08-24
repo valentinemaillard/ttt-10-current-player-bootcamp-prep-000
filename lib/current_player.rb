@@ -1,12 +1,11 @@
-
+board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
 
 def turn_count(board)
-  player_turn = ["X", "O", "X", "O", "X","O", "X", "O", "X"]
   counter = 0 
-  player_turn.each do |turn|
+  board.each do |turn|
     puts "This is turn #{counter}"
-    puts ""
-  
+    counter += 1
+  end
 end 
 
 def current_player(board)
