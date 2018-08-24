@@ -5,7 +5,6 @@ def turn_count(board)
   counter == 9
   board.each do |turn|
     puts "This is turn number #{counter}"
-    puts board
     counter += 1
   end
 end 
