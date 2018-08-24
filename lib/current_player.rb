@@ -5,11 +5,6 @@ def turn_count(board)
   board.each do |turn|
     puts "This is turn number #{counter}"
     counter += 1
-    if board !(" " && "0")
-      puts "This is player's one turn"
-    else 
-      puts "This is player's two turn"
-    end
   end
 end 
 
