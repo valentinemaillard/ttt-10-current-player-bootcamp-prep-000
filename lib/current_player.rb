@@ -1,5 +1,7 @@
 def turn_count(board)
+  player_turn = ["X", "O", "X", "O", "X","O", "X", "O", "X"]
   counter = 0 
+  
   
 end 
 
